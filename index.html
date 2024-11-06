@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thanksgiving Recipes</title>
+    </head>
+    <body>
+        <h1>Collecting Thanksgiving Recipes</h1>
+        <form>
+        <div>
+            <label for ="recipeName">Recipe Name: </label>
+            <input type ="text" name="recipeName">
+        </div>
+        <div>
+            <label for ="emailAddress">Email Address: </label>
+            <input type ="email" name="emailAddress">
+        </div>
+        <div>
+            <label for ="todaysDate">Today's Date: </label>
+            <input type ="date" name="todaysDate">
+        </div>
+        <p>What ingredients are in your recipe?</p>
+        <div>
+            <input type ="checkbox" name="ingredients" value="fruit" /> Fruit
+            <input type ="checkbox" name="ingredients" value="veggies" /> Veggies
+            <input type ="checkbox" name="ingredients" value="grains" /> Grains
+            <input type ="checkbox" name="ingredients" value="dairy" /> Dairy
+        </div>
+        <div>
+            <label for ="recipeType">What type of recipe is this? 
+            <select name="recipeType"> 
+                <option value ="dessert">Dessert</option>
+                <option value="side dish">Side Dish</option>
+                <option value="appetizer">Appetizer</option>
+            </select>
+            </label>
+        </div>
+            <input type="submit" name="submit" value="Submit Your Recipe">
+        <script src="JS/index.js"></script>
+        </form>
+    </body>
+</html>
